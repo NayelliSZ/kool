@@ -26,7 +26,7 @@
       <!-- Default box -->
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Bienvenido</h3>
+          <h2 class="card-title">Bienvenido a Kool</h2>
 
           <div class="card-tools">
             <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -38,12 +38,13 @@
           </div>
         </div>
         <div class="card-body">
-          Empecemos a trabajar!!!
-          <br>
+          <h4>Kool es una plataforma que se encarga de facilitar ciertos procesos de un bar, como es la creación de cuentas nuevas para posteriormente cobrarlas.
+          <br><br>
+          Además de obtener el resumen de lo vendido por noche.</h4>
         </div>
         <!-- /.card-body -->
         <div class="card-footer">
-          Vamos!!
+          Empecemos!!
         </div>
         <!-- /.card-footer-->
       </div>

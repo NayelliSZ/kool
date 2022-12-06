@@ -90,9 +90,7 @@ function listar(){
 												//r mensaje de procesamiento, t Table como tal, i informacion
 												//p paginacion
 		buttons:[
-			'copyHtml5',
 			'excelHtml5',
-			'csvHtml5',
 			'pdfHtml5'
 		],
 		"ajax":{

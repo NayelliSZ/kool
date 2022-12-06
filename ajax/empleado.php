@@ -109,7 +109,7 @@ switch ($_GET["op"]) {
 		if(strlen(strtotime($rspta["fechaBaja"]))>1){
 			$rspta["fechaBaja"]=date("Y-m-d",strtotime($rspta["fechaBaja"]));
 		}
-
+		$rspta["pwd"]=val_pass($rspta["pwd"]);
 		$rspta["pwd"]=hash("sha256","Contraseña no actualizada");
 
 

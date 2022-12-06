@@ -29,7 +29,7 @@ Class Empleado{
 	}
 	public function activar($idEmpleado)
 	{
-		$sql= "UPDATE usuario SET activo= '1', fechaActualizacion=current_timestamp() WHERE idUsuario='$idEmpleado'";
+		$sql= "UPDATE usuario SET activo= '1', fechaActualizacion=current_timestamp(), fechaBaja='0000-00-00 00:00:00' WHERE idUsuario='$idEmpleado'";
 		return ejecutarConsulta($sql);
 	}
 

@@ -23,7 +23,6 @@
           <div class="panel-body" id="listadoregdata">
             <table id="tblistadoregdata" class="table table-striped table bordered table-condensed table-over">
               <thead>
-                <th> Opciones</th>
                 <th> Venta</th>
                 <th> Propina</th>
                 <th> Total</th>
@@ -41,4 +40,4 @@
  <?php
   require 'piepagina.php';
 ?>
-<script type="text/javascript" src= "scripts/inventario.js"></script>
+<script type="text/javascript" src= "scripts/ganancia.js"></script>
