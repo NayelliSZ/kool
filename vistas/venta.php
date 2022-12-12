@@ -28,6 +28,7 @@
                 <th> Total</th>
                 <th> Propina</th>
                 <th> Total con propina</th>
+                <th> Forma de pago</th>
                 <th> Estatus</th>
               </thead>
             </table>
@@ -36,22 +37,17 @@
           <!--- Contenedor de formulario-->
           <div class="panel-body" id="formregdata">
             <form name="formulario" id= "formulario" method="post" class="row">
-
               <div class="form-group col-xl-6 col-md-6 col-sm-12">
-                <label for= "empleado">Nombre del empleado</label>
-              <input type="hidden" name="idUsuario" id="idUsuario">
-              <input type="text" class= "form-control" name="empleado" id="empleado" maxlength="256" placeholder="Nombre del empleado" required>
-              </div>
-
-              <div class="form-group col-xl-6 col-md-6 col-sm-12">
-                <label for= "nombre">Nombre del cliente</label>
+              <label for= "nombre_cliente">Nombre del cliente</label>
               <input type="hidden" name="idProd" id="idProd">
-              <input type="text" class= "form-control" name="nombre" id="nombre" maxlength="256" placeholder="Nombre del cliente" required>
+              <input type="text" class= "form-control" name="nombre_cliente" id="nombre_cliente" maxlength="256" placeholder="Nombre del cliente" required>
               </div>
 
               <div class="form-group col-xl-6 col-md-6 col-sm-12">
-                <label for= "producto">Producto</label>
-              <input type="text" class= "form-control"name="producto" id="producto" maxlength="256" placeholder="Nombre del producto" required>
+                <label for= "nombre">Producto</label>
+              <select id="nombre" name="nombre">
+                
+              </select>
               </div>
 
               <div class="form-group col-xl-6 col-md-6 col-sm-12">
@@ -65,12 +61,12 @@
               </div>
 
               <div class="form-group col-xl-6 col-md-6 col-sm-12">
-                <button class="btn" id="btnAgregar" type="button" onclick="agregar()"><i class="fas fa-save"></i> </h3> Agregar producto</button>
+                <label for= "propina">Propina</label>
+              <input type="text" class= "form-control" name="propina" id="propina" maxlength="256" placeholder="Propina" required>
               </div>
 
               <div class="form-group col-xl-6 col-md-6 col-sm-12">
-                <label for= "propina">Propina</label>
-              <input type="text" class= "form-control" name="propina" id="propina" maxlength="256" placeholder="Propina" required>
+                <button class="btn" id="btnAgregar" type="button" onclick="agregar()"><i class="fas fa-save"></i> </h3> Agregar producto</button>
               </div>
 
               <div class="form-group col-xl-6 col-md-6 col-sm-12">

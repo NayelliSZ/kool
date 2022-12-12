@@ -11,11 +11,8 @@ $segundoApellido = isset($_POST['segundoApellido'])?limpiarCadenas($_POST['segun
 $email = isset($_POST['email'])?limpiarCadenas($_POST['email']):"";
 $fechaEntrada = isset($_POST['fechaEntrada'])?limpiarCadenas($_POST['fechaEntrada']):"";
 $fechaBaja = isset($_POST['fechaBaja'])?limpiarCadenas($_POST['fechaBaja']):"";
+$tipo = isset($_POST['tipo'])?limpiarCadenas($_POST['tipo']):"";
 $tel = isset($_POST['tel'])?limpiarCadenas($_POST['tel']):"";
-$idTipo1 = isset($_POST['1'])?limpiarCadenas($_POST['1']):"";
-$idTipo2 = isset($_POST['2'])?limpiarCadenas($_POST['2']):"";
-$idTipo3 = isset($_POST['3'])?limpiarCadenas($_POST['3']):"";
-$idTipo4 = isset($_POST['4'])?limpiarCadenas($_POST['4']):"";
 $usr = isset($_POST['tel'])?limpiarCadenas($_POST['tel']):"";
 $pwd = isset($_POST['pwd'])?limpiarCadenas($_POST['pwd']):"";
 $fotoActual = isset($_POST['fotoActual'])?limpiarCadenas($_POST['fotoActual']):"";
@@ -42,26 +39,15 @@ switch ($_GET["op"]) {
 				$nombre=encryption($nombre);
 				$primerApellido=encryption($primerApellido);
 				$segundoApellido=encryption($segundoApellido);
-				$pwd=set_pass($pwd);
-				$rspta=$empleado->insertar($nombre, $primerApellido, $segundoApellido, $email, $fechaEntrada, $fechaBaja, $tel, $pwd, $imagen);
-				//$rspta2=$tipo->insertar($idTipo);
+				$rspta=$empleado->insertar($nombre, $primerApellido, $segundoApellido, $email, $fechaEntrada, $fechaBaja, $tel, $pwd, $imagen, $tipo);
 				echo $rspta!=0?"Empleado registrado":"Error empleado no registrado";
 			}
 		}else{
-			$hasValidador=hash("sha256","Contraseña no actualizada");
-				//write_log("Ajax empleado - editar valor de hasValidador: $hasValidador || pwd = $pwd");
-			if($pwd == $hasValidador){
-				$pwd="";
-				//write_log("Ajax empleado - editar iguales valor de hasValidador: $hasValidador || pwd = $pwd");
-			}else{
-				$pwd=set_pass($pwd);
-				//write_log("Ajax empleado - editar diferentes valor de hasValidador: $hasValidador || pwd = $pwd");
-			}
 			$nombre=encryption($nombre);
 			$primerApellido=encryption($primerApellido);
 			$segundoApellido=encryption($segundoApellido);
 
-			$rspta=$empleado->editar($idEmpleado, $nombre, $primerApellido, $segundoApellido, $email, $fechaEntrada, $fechaBaja, $idTipo, $tel, $pwd, $fotoActual, $fechaActualizacion);
+			$rspta=$empleado->editar($idEmpleado, $nombre, $primerApellido, $segundoApellido, $email, $fechaEntrada, $fechaBaja, $tel, $pwd, $fotoActual, $tipo, $fechaActualizacion);
 			echo $rspta!=0?"Empleado actualizado":"Error empleado no actualizado";
 		}
 		break;
@@ -78,7 +64,7 @@ switch ($_GET["op"]) {
 				"2"=>decryption($reg->apellidop),
 				"3"=>$reg->email,
 				"4"=>$reg->telefono,
-				"5"=>$reg->nombre_puesto,
+				"5"=>$reg->tipo,
 				"7"=>$reg->fechaCreacion,
 				"8"=>$reg->fechaBaja,
 				"6"=>($reg->activo)?'<span class="badge badge-success">Activado</span>':'<span class="badge badge-danger">Desactivado</span>'
@@ -97,11 +83,12 @@ switch ($_GET["op"]) {
 		$rspta = $empleado ->mostrar($idEmpleado);
 		write_log("Ajax Empleado Caso Mostrar");
 		write_log(json_encode($rspta));
-
+		$rspta["idEmpleado"]=$rspta["idUsuario"];
 		$rspta["nombre"]=decryption($rspta["nombre"]);
 		$rspta["primerApellido"]=decryption($rspta["apellidop"]);
 		$rspta["segundoApellido"]=decryption($rspta["apellidom"]);
 		$rspta["tel"]=$rspta["telefono"];
+		$rspta["tipo"]=$rspta["tipo"];
 
 		if(strlen(strtotime($rspta["fechaCreacion"]))>1){
 			$rspta["fechaEntrada"]=date("Y-m-d",strtotime($rspta["fechaCreacion"]));
@@ -109,8 +96,7 @@ switch ($_GET["op"]) {
 		if(strlen(strtotime($rspta["fechaBaja"]))>1){
 			$rspta["fechaBaja"]=date("Y-m-d",strtotime($rspta["fechaBaja"]));
 		}
-		$rspta["pwd"]=val_pass($rspta["pwd"]);
-		$rspta["pwd"]=hash("sha256","Contraseña no actualizada");
+		$rspta["pwd"]=$rspta["pwd"];
 
 
 		echo json_encode($rspta);

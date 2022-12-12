@@ -2,6 +2,7 @@
 var table;
 function init(){
 	mostrarform(false);
+	productos();
 	listar();
 	$("#formulario").on("submit", function(e){
 		guardaryeditar(e);
@@ -13,7 +14,7 @@ function init(){
 function limpiar(){
 	$("#idVenta").val("");
 	$("#empleado").val("");
-	$("#nombre").val("");
+	$("#nombre_cliente").val("");
 	$("#descripcion").val("");
 	$("#foto").val("");
 	$("#fotoActual").val("");
@@ -101,62 +102,19 @@ function mostrar(idVenta){
 		data=JSON.parse(data);
 		mostrarform(true);
 		$('#idVenta').val(data.idVenta);
+		$('#nombre_cliente').val(data.nombre_cliente);
+	});
+}
+
+function productos(){
+	$.post("../ajax/venta.php?op=productos", function(data){
+		console.log(data);
+		let PRODUCTOS =JSON.parse(data);
+		let template=""
+
+		$('#idReceta').val(data.idReceta);
 		$('#nombre').val(data.nombre);
 		$('#precio').val(data.precio);
-		$('#descripcion').val(data.descripcion);
-		$('#fotoActual').val(data.foto);
-		$('#imagenmuestra').attr("src","../files/img/"+data.foto);
-	});
-}
-
-function desactivar(idVenta){
-	var ventanaEleccion = toastr.warning('¿Deseas desactivar el producto seleccionado?<br>'+
-		'<button type="button" id="rsptaSi" class="btn btn-success">SI</button>'+
-		'<button type="button" id="rsptaNo" class="btn btn-danger">NO</button>',"Alerta");
-	$('#rsptaSi').click(function () {
-		console.log("El usuario ha elegido desactivar el producto");
-		toastr.clear(ventanaEleccion);
-		$.post("../ajax/venta.php?op=desactivar", {idVenta:idVenta}, function(mensaje){
-			valida= mensaje.indexOf('rror');
-			if(valida!=-1){
-				toastr["error"](mensaje);
-			}else{
-				toastr["success"](mensaje);
-			}
-			mostrarform(false);
-			table.ajax.reload();
-			//listar();
-		});
-	});
-
-	$('#rsptaNo').click(function () {
-		console.log("El usuario ha elegido cancelar la accion");
-		toastr.clear(ventanaEleccion);
-	});
-}
-
-function activar(idVenta){
-	var ventanaEleccion = toastr.warning('¿Deseas activar el producto seleccionado?<br>'+
-		'<button type="button" id="rsptaSi" class="btn btn-success">SI</button>'+
-		'<button type="button" id="rsptaNo" class="btn btn-danger">NO</button>',"Alerta");
-	$('#rsptaSi').click(function () {
-		console.log("El usuario ha elegido activar el producto");
-		toastr.clear(ventanaEleccion);
-		$.post("../ajax/venta.php?op=activar", {idVenta:idVenta}, function(mensaje){
-			valida= mensaje.indexOf('rror');
-			if(valida!=-1){
-				toastr["error"](mensaje);
-			}else{
-				toastr["success"](mensaje);
-			}
-			mostrarform(false);
-			listar();
-		});
-	});
-
-	$('#rsptaNo').click(function () {
-		console.log("El usuario ha elegido cancelar la accion");
-		toastr.clear(ventanaEleccion);
 	});
 }
 

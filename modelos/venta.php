@@ -8,7 +8,7 @@ Class Venta{
 
 	public function insertar($nombre_cliente, $totalp, $propina, $totalpr, $idUsuario)
 	{
-		$sql= "INSERT INTO `venta`(`idVenta`, `nombre_cliente`, `total_pagar`, `propina`, `total_propina`, `idUsuario`, `fechaCreacion`, `fechaActualizacion`) values ('','$nombre_cliente', '$totalp', '$propina', '$totalpr',  '$idUsuario', current_timestamp, current_timestamp)";
+		$sql= "INSERT INTO `venta`(`idVenta`, `nombre_cliente`, `total_pagar`, `propina`, `total_propina`, `fechaCreacion`, `fechaActualizacion`) values ('','$nombre_cliente', '$totalp', '$propina', '$totalpr', current_timestamp, current_timestamp)";
 		return ejecutarConsultaRetornaID($sql);
 	}
 
@@ -30,6 +30,16 @@ Class Venta{
 			WHERE idVenta= '$idVenta'";
 		return ejecutarConsultaSimpleFila($sql);
 	}
+
+	public function productos()
+	{
+			$sql= "SELECT
+				e.idReceta,
+				e.nombre,
+				e.precio
+				FROM receta e";
+		return ejecutarConsulta($sql);
+	}
 	
 	public function listar(){
 		$sql= "SELECT
@@ -38,6 +48,7 @@ Class Venta{
 			e.total_pagar,
 			e.propina,
 			e.total_propina,
+			e.forma_pago,
 			e.estatus,
 			e.fechaCreacion
 			FROM venta e";
@@ -52,7 +63,6 @@ Class Venta{
 			e.propina,
 			e.total_propina,
 			e.fechaCreacion,
-			e.idUsuario,
 			e.fechaActualizacion
 			FROM venta e
 			WHERE idVenta= '$idVenta'";

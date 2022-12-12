@@ -24,8 +24,8 @@ switch ($_GET["op"]) {
 				"0"=>$reg->total_pagar,
 				"1"=>$reg->propina,
 				"2"=>$reg->total_propina,
-				"3"=>($reg->forma_pago==0)? $reg->total_propina : (($reg->forma_pago==2)? $reg->total_pagar : (($reg->forma_pago==3)? $reg->propina :$reg->nada)),
-				"4"=>($reg->forma_pago==1)? $reg->total_propina : (($reg->forma_pago==3)? $reg->total_pagar : (($reg->forma_pago==2)? $reg->propina :$reg->nada))
+				"3"=>($reg->forma_pago==1)? $reg->total_propina : (($reg->forma_pago==3)? $reg->total_pagar : (($reg->forma_pago==4)? $reg->propina :$reg->nada)),
+				"4"=>($reg->forma_pago==2)? $reg->total_propina : (($reg->forma_pago==4)? $reg->total_pagar : (($reg->forma_pago==3)? $reg->propina :$reg->nada))
 
 			);
 		}

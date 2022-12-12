@@ -1,12 +1,7 @@
 //create a global variable
 var table;
 function init(){
-	mostrarform(false);
 	listar();
-	$("#formulario").on("submit", function(e){
-		guardaryeditar(e);
-		}
-	);
 }
 
 
@@ -18,54 +13,6 @@ function limpiar(){
 	$("#foto").val("");
 	$("#fotoActual").val("");
 	$("#imagenmuestra").attr("src", "");
-}
-
-function mostrarform(flag){
-
-	limpiar();
-	if(flag){
-		$("#listadoregdata").hide();
-		$("#formregdata").show();
-		$("#btnagregar").hide();
-		$("#btnGuardar").prop("disable",false);
-	}else{
-		$("#listadoregdata").show();
-		$("#formregdata").hide();
-		$("#btnagregar").show();
-	}
-}
-
-function cancelarform(){
-		limpiar();
-		mostrarform(false);
-}
-
-function guardaryeditar(e){
-	e.preventDefault();
-	$("#btnagregar").prop("disable",true);
-	var formData = new FormData($("#formulario")[0]);
-	$.ajax({
-		url: "../ajax/receta.php?op=guardaryeditar",
-		type: "POST",
-		data: formData,
-		contentType: false,
-		processData: false,
-
-		success: function (mensaje){
-			valida= mensaje.indexOf('rror');
-			if(valida!=-1){
-				toastr["error"](mensaje);
-			}else{
-				toastr["success"](mensaje);
-			}
-
-			mostrarform(false);
-			table.ajax.reload();
-			listar();
-		}
-	});
-	listar();
-	limpiar();
 }
 
 function listar(){

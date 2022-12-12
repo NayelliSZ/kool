@@ -16,7 +16,7 @@
       <!-- Default box -->
       <div id="con" class="card">
         <div class="card-header">
-          <h3 class="card-title">INVENTARIO <button  class="btn btn-success" id="btnagregar" onclick="mostrarform(true)"><i class="fas fa-plus-circle"></i> Agregar</button></h3>
+          <h3 class="card-title">RECETA <button  class="btn btn-success" id="btnagregar" onclick="mostrarform(true)"><i class="fas fa-plus-circle"></i> Agregar</button></h3>
         </div> 
         <div class="card-body">
           <!---Contenedor de listados-->

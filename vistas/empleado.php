@@ -77,12 +77,7 @@
 
               <div class="form-group col-xl-6 col-md-6 col-sm-12">
                 <label for= "idTipo">Tipo</label>
-                <select id="idTipo">
-                  <option value="1"> Jefe</option>
-                  <option value="2"> Empleado de barra</option>
-                  <option value="3"> Mesero</option>
-                  <option value="4"> Cocina</option>
-                </select>
+                <input type="text" class="form-control" name="tipo" id="tipo" maxlength="256" placeholder="Jefe/Empleado">
               </div>
 
               <div class="form-group col-xl-6 col-md-6 col-sm-12">

@@ -119,7 +119,7 @@ function mostrar(idEmpleado){
 		$('#email').val(data.email);
 		$('#fechaEntrada').val(data.fechaEntrada);
 		$('#fechaBaja').val(data.fechaBaja);
-		$('#idTipo').val(data.idTipo)
+		$('#tipo').val(data.tipo)
 		$('#tel').val(data.tel);
 		$('#pwd').val(data.pwd);
 		$('#fotoActual').val(data.foto);

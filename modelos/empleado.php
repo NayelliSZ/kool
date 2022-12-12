@@ -6,18 +6,18 @@ Class Empleado{
 
 	}
 
-	public function insertar($nombre, $primerApellido, $segundoApellido, $email, $fechaEntrada, $fechaBaja, $tel, $pwd, $foto)
+	public function insertar($nombre, $primerApellido, $segundoApellido, $email, $fechaEntrada, $fechaBaja, $tel, $pwd, $foto, $tipo)
 	{
-		$sql= "INSERT INTO `usuario`(`idUsuario`, `nombre`, `apellidop`, `apellidom`, `email`, `telefono`, `pwd`, `foto`, `activo`, `fechaCreacion`, `fechaBaja`, `fechaActualizacion`) values ('','$nombre', '$primerApellido', '$segundoApellido', '$email',  '$tel', '$pwd', '$foto', '1', '$fechaEntrada', '$fechaBaja', current_timestamp)";
+		$sql= "INSERT INTO `usuario`(`idUsuario`, `nombre`, `apellidop`, `apellidom`, `email`, `telefono`, `pwd`, `foto`, `tipo`, `activo`, `fechaCreacion`, `fechaBaja`, `fechaActualizacion`) values ('','$nombre', '$primerApellido', '$segundoApellido', '$email',  '$tel', '$pwd', '$foto', '$tipo', '1', '$fechaEntrada', '$fechaBaja', current_timestamp)";
 		//$sql2= "INSERT INTO usuario_tipo (idtipo)values('idTipo');
 		return ejecutarConsultaRetornaID($sql);
 	}
 
-	public function editar ($idEmpleado, $nombre, $primerApellido, $segundoApellido, $email, $fechaEntrada, $fechaBaja, $tel, $pwd, $foto, $fechaActualizacion){
+	public function editar ($idEmpleado, $nombre, $primerApellido, $segundoApellido, $email, $fechaEntrada, $fechaBaja, $tel, $pwd, $foto, $tipo, $fechaActualizacion){
 
 		$password=($pwd=="")?"":"pwd='$pwd',";
 
-		$sql= "UPDATE usuario SET nombre='$nombre', primerApellido='$primerApellido', segundoApellido='$segundoApellido', email='$email', fechaEntrada='$fechaEntrada', fechaBaja='$fechaBaja', telefono='$tel', ".$password." foto='$foto', fechaActualizacion='$fechaActualizacion' WHERE idEmpleado='$idEmpleado'";
+		$sql= "UPDATE usuario SET nombre='$nombre', apellidop='$primerApellido', apellidom='$segundoApellido', email='$email', fechaCreacion='$fechaEntrada', fechaBaja='$fechaBaja', telefono='$tel', ".$password." foto='$foto', tipo='$tipo', fechaActualizacion='$fechaActualizacion' WHERE idUsuario='$idEmpleado'";
 			return ejecutarConsulta($sql);
 	}
 
@@ -44,6 +44,7 @@ Class Empleado{
 			e.fechaCreacion,
 			e.fechaBaja,
 			e.telefono,
+			e.tipo,
 			e.pwd,
 			e.foto,
 			e.activo
@@ -65,10 +66,9 @@ Class Empleado{
 			e.pwd,
 			e.foto,
 			e.activo,
-			d.nombre_puesto,
+			e.tipo,
 			e.fechaActualizacion
-			FROM usuario e, usuario_tipo ut, tipo d
-			where ut.idTipo= d.idTipo and ut.idUsuario= e.idUsuario";
+			FROM usuario e";
 		return ejecutarConsulta($sql);
 	}
 

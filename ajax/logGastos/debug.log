@@ -2026,3 +2026,565 @@ Ajax Empleado Caso Mostrar
 {}
  ================ 2022-12-06 15:35:41 ============= 
 {}
+ ================ 2022-12-06 15:48:12 ============= 
+{}
+ ================ 2022-12-06 15:49:12 ============= 
+{}
+ ================ 2022-12-06 15:49:41 ============= 
+{}
+ ================ 2022-12-06 15:50:04 ============= 
+{}
+ ================ 2022-12-06 15:51:47 ============= 
+{}
+ ================ 2022-12-06 15:52:02 ============= 
+{}
+ ================ 2022-12-06 15:52:05 ============= 
+Ajax Venta Caso Mostrar
+ ================ 2022-12-06 15:52:05 ============= 
+{"idVenta":"1","nombre_cliente":"carla","total_pagar":"150","propina":"20","total_propina":"170","fechaCreacion":"2022-11-28 08:44:47"}
+ ================ 2022-12-06 15:53:03 ============= 
+{}
+ ================ 2022-12-06 15:53:04 ============= 
+Ajax Venta Caso Mostrar
+ ================ 2022-12-06 15:53:04 ============= 
+{"idVenta":"1","nombre_cliente":"carla","total_pagar":"150","propina":"20","total_propina":"170","fechaCreacion":"2022-11-28 08:44:47"}
+ ================ 2022-12-06 15:53:20 ============= 
+Ajax Venta Caso Mostrar
+ ================ 2022-12-06 15:53:20 ============= 
+{"idVenta":"1","nombre_cliente":"carla","total_pagar":"150","propina":"20","total_propina":"170","fechaCreacion":"2022-11-28 08:44:47"}
+ ================ 2022-12-06 15:53:55 ============= 
+{}
+ ================ 2022-12-06 15:54:00 ============= 
+Ajax Venta Caso Mostrar
+ ================ 2022-12-06 15:54:00 ============= 
+{"idVenta":"1","nombre_cliente":"carla","total_pagar":"150","propina":"20","total_propina":"170","fechaCreacion":"2022-11-28 08:44:47"}
+ ================ 2022-12-06 15:55:37 ============= 
+{}
+ ================ 2022-12-06 15:55:56 ============= 
+{}
+ ================ 2022-12-06 15:56:05 ============= 
+{}
+ ================ 2022-12-06 15:56:24 ============= 
+{}
+ ================ 2022-12-06 15:56:24 ============= 
+{}
+ ================ 2022-12-06 15:56:24 ============= 
+{}
+ ================ 2022-12-06 15:58:37 ============= 
+{}
+ ================ 2022-12-06 15:58:37 ============= 
+{}
+ ================ 2022-12-06 15:58:37 ============= 
+{}
+ ================ 2022-12-06 16:00:53 ============= 
+{}
+ ================ 2022-12-06 16:01:11 ============= 
+{}
+ ================ 2022-12-06 16:01:11 ============= 
+{}
+ ================ 2022-12-06 16:01:12 ============= 
+{}
+ ================ 2022-12-06 16:03:32 ============= 
+{}
+ ================ 2022-12-06 16:03:42 ============= 
+{}
+ ================ 2022-12-06 16:03:42 ============= 
+{}
+ ================ 2022-12-06 16:03:42 ============= 
+{}
+ ================ 2022-12-06 16:26:17 ============= 
+{}
+ ================ 2022-12-06 16:26:42 ============= 
+{}
+ ================ 2022-12-06 16:27:28 ============= 
+{}
+ ================ 2022-12-06 16:28:08 ============= 
+{}
+ ================ 2022-12-06 16:29:20 ============= 
+{}
+ ================ 2022-12-06 16:29:25 ============= 
+{}
+ ================ 2022-12-06 16:30:01 ============= 
+{}
+ ================ 2022-12-06 16:30:05 ============= 
+{}
+ ================ 2022-12-06 16:34:33 ============= 
+{}
+ ================ 2022-12-06 16:35:27 ============= 
+{}
+ ================ 2022-12-06 16:35:27 ============= 
+{}
+ ================ 2022-12-06 16:35:28 ============= 
+{}
+ ================ 2022-12-06 16:36:00 ============= 
+{}
+ ================ 2022-12-06 16:36:07 ============= 
+{}
+ ================ 2022-12-06 16:36:49 ============= 
+{}
+ ================ 2022-12-06 16:37:09 ============= 
+{}
+ ================ 2022-12-06 16:37:30 ============= 
+{}
+ ================ 2022-12-06 16:37:30 ============= 
+{}
+ ================ 2022-12-06 16:37:30 ============= 
+{}
+ ================ 2022-12-06 16:37:41 ============= 
+{}
+ ================ 2022-12-06 16:38:22 ============= 
+{}
+ ================ 2022-12-06 16:38:22 ============= 
+{}
+ ================ 2022-12-06 16:38:22 ============= 
+{}
+ ================ 2022-12-06 16:39:09 ============= 
+{}
+ ================ 2022-12-06 16:39:15 ============= 
+{}
+ ================ 2022-12-06 16:39:59 ============= 
+{}
+ ================ 2022-12-06 16:40:19 ============= 
+{}
+ ================ 2022-12-06 16:40:32 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-06 16:40:32 ============= 
+{"idUsuario":"2","nombre":"N3d3THN4TmVpZVhPclBnYmI0emFQZz09OjrPKiSvfQEyKi0nUDsnc0E1","apellidop":"YnAxU1E3bWl5bk9SRHBSVDh0TnVBQT09OjrtaQT3vVBr9QJa018Azn55","apellidom":"ZmxsMW5KMnl3ckxwVHRDWDJQTHJjUT09OjogML4sM6+FOwM1V5NdYajp","email":"nayellisotoz@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-12-02 19:32:58","telefono":"5536980291","pwd":"$2y$11$GZWr6AsCSwooWsw0tQGor.v7jAAHfibLwUpxy\/xjOnhskSW\/mMgz6","foto":"default.png","activo":"0"}
+ ================ 2022-12-06 16:41:02 ============= 
+{}
+ ================ 2022-12-06 16:41:09 ============= 
+{}
+ ================ 2022-12-06 16:41:14 ============= 
+{}
+ ================ 2022-12-06 16:41:51 ============= 
+{}
+ ================ 2022-12-06 16:42:47 ============= 
+Ajax Venta Caso Mostrar
+ ================ 2022-12-06 16:42:47 ============= 
+{"idVenta":"1","nombre_cliente":"carla","total_pagar":"150","propina":"20","total_propina":"170","fechaCreacion":"2022-11-28 08:44:47"}
+ ================ 2022-12-06 16:44:13 ============= 
+{}
+ ================ 2022-12-06 16:44:13 ============= 
+{}
+ ================ 2022-12-06 16:44:13 ============= 
+{}
+ ================ 2022-12-06 16:47:18 ============= 
+{}
+ ================ 2022-12-09 19:03:32 ============= 
+{}
+ ================ 2022-12-12 21:22:25 ============= 
+{}
+ ================ 2022-12-12 21:24:33 ============= 
+{}
+ ================ 2022-12-12 21:37:42 ============= 
+{}
+ ================ 2022-12-12 21:37:57 ============= 
+{}
+ ================ 2022-12-12 21:38:26 ============= 
+{}
+ ================ 2022-12-12 21:40:43 ============= 
+{}
+ ================ 2022-12-12 21:40:54 ============= 
+{}
+ ================ 2022-12-12 21:41:00 ============= 
+{}
+ ================ 2022-12-12 21:41:09 ============= 
+{}
+ ================ 2022-12-12 21:41:25 ============= 
+{}
+ ================ 2022-12-12 21:41:35 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:41:35 ============= 
+{"idReceta":"1","nombre":"Crack","precio":"150"}
+ ================ 2022-12-12 21:41:35 ============= 
+{}
+ ================ 2022-12-12 21:41:55 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:41:55 ============= 
+{"idReceta":"1","nombre":"Crack","precio":"150"}
+ ================ 2022-12-12 21:41:55 ============= 
+{}
+ ================ 2022-12-12 21:42:20 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:42:20 ============= 
+{}
+ ================ 2022-12-12 21:42:20 ============= 
+{}
+ ================ 2022-12-12 21:42:49 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:42:49 ============= 
+{}
+ ================ 2022-12-12 21:42:49 ============= 
+{}
+ ================ 2022-12-12 21:43:21 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:43:21 ============= 
+"SELECT\r\n\t\t\t\te.idReceta,\r\n\t\t\t\te.nombre,\r\n\t\t\t\te.precio\r\n\t\t\t\tFROM receta e"
+ ================ 2022-12-12 21:43:21 ============= 
+"SELECT\r\n\t\t\te.idVenta,\r\n\t\t\te.nombre_cliente,\r\n\t\t\te.total_pagar,\r\n\t\t\te.propina,\r\n\t\t\te.total_propina,\r\n\t\t\te.forma_pago,\r\n\t\t\te.estatus,\r\n\t\t\te.fechaCreacion\r\n\t\t\tFROM venta e"
+ ================ 2022-12-12 21:43:36 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:43:36 ============= 
+"SELECT\r\n\t\t\t\te.idReceta,\r\n\t\t\t\te.nombre,\r\n\t\t\t\te.precio\r\n\t\t\t\tFROM receta e"
+ ================ 2022-12-12 21:43:36 ============= 
+"SELECT\r\n\t\t\te.idVenta,\r\n\t\t\te.nombre_cliente,\r\n\t\t\te.total_pagar,\r\n\t\t\te.propina,\r\n\t\t\te.total_propina,\r\n\t\t\te.forma_pago,\r\n\t\t\te.estatus,\r\n\t\t\te.fechaCreacion\r\n\t\t\tFROM venta e"
+ ================ 2022-12-12 21:44:32 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:44:32 ============= 
+"SELECT\r\n\t\t\t\te.idReceta,\r\n\t\t\t\te.nombre,\r\n\t\t\t\te.precio\r\n\t\t\t\tFROM receta e"
+ ================ 2022-12-12 21:44:32 ============= 
+"SELECT\r\n\t\t\te.idVenta,\r\n\t\t\te.nombre_cliente,\r\n\t\t\te.total_pagar,\r\n\t\t\te.propina,\r\n\t\t\te.total_propina,\r\n\t\t\te.forma_pago,\r\n\t\t\te.estatus,\r\n\t\t\te.fechaCreacion\r\n\t\t\tFROM venta e"
+ ================ 2022-12-12 21:44:47 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:44:47 ============= 
+"SELECT\r\n\t\t\t\te.idReceta,\r\n\t\t\t\te.nombre,\r\n\t\t\t\te.precio\r\n\t\t\t\tFROM receta e"
+ ================ 2022-12-12 21:44:47 ============= 
+"SELECT\r\n\t\t\te.idVenta,\r\n\t\t\te.nombre_cliente,\r\n\t\t\te.total_pagar,\r\n\t\t\te.propina,\r\n\t\t\te.total_propina,\r\n\t\t\te.forma_pago,\r\n\t\t\te.estatus,\r\n\t\t\te.fechaCreacion\r\n\t\t\tFROM venta e"
+ ================ 2022-12-12 21:44:56 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:44:56 ============= 
+"SELECT\r\n\t\t\t\te.idReceta,\r\n\t\t\t\te.nombre,\r\n\t\t\t\te.precio\r\n\t\t\t\tFROM receta e"
+ ================ 2022-12-12 21:44:56 ============= 
+"SELECT\r\n\t\t\te.idVenta,\r\n\t\t\te.nombre_cliente,\r\n\t\t\te.total_pagar,\r\n\t\t\te.propina,\r\n\t\t\te.total_propina,\r\n\t\t\te.forma_pago,\r\n\t\t\te.estatus,\r\n\t\t\te.fechaCreacion\r\n\t\t\tFROM venta e"
+ ================ 2022-12-12 21:45:15 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:45:15 ============= 
+{}
+ ================ 2022-12-12 21:45:15 ============= 
+{}
+ ================ 2022-12-12 21:45:36 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:45:36 ============= 
+{}
+ ================ 2022-12-12 21:45:36 ============= 
+{}
+ ================ 2022-12-12 21:45:57 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:45:57 ============= 
+"SELECT\r\n\t\t\t\te.idReceta,\r\n\t\t\t\te.nombre,\r\n\t\t\t\te.precio\r\n\t\t\t\tFROM receta e"
+ ================ 2022-12-12 21:45:57 ============= 
+{}
+ ================ 2022-12-12 21:46:07 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:46:07 ============= 
+{"idReceta":"1","nombre":"Crack","precio":"150"}
+ ================ 2022-12-12 21:46:07 ============= 
+{}
+ ================ 2022-12-12 21:46:18 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:46:18 ============= 
+"SELECT\r\n\t\t\t\te.idReceta,\r\n\t\t\t\te.nombre,\r\n\t\t\t\te.precio\r\n\t\t\t\tFROM receta e"
+ ================ 2022-12-12 21:46:18 ============= 
+{}
+ ================ 2022-12-12 21:46:29 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 21:46:29 ============= 
+{}
+ ================ 2022-12-12 21:46:29 ============= 
+{}
+ ================ 2022-12-12 21:46:51 ============= 
+Ajax Venta Caso Mostrar
+ ================ 2022-12-12 21:46:51 ============= 
+{"idVenta":"1","nombre_cliente":"carla","total_pagar":"150","propina":"20","total_propina":"170","fechaCreacion":"2022-11-28 08:44:47"}
+ ================ 2022-12-12 22:01:51 ============= 
+{}
+ ================ 2022-12-12 22:07:37 ============= 
+{}
+ ================ 2022-12-12 22:07:59 ============= 
+{}
+ ================ 2022-12-12 22:08:52 ============= 
+{}
+ ================ 2022-12-12 22:09:08 ============= 
+{}
+ ================ 2022-12-12 22:10:13 ============= 
+{}
+ ================ 2022-12-12 22:11:27 ============= 
+{}
+ ================ 2022-12-12 22:11:30 ============= 
+{}
+ ================ 2022-12-12 22:11:55 ============= 
+{}
+ ================ 2022-12-12 22:12:23 ============= 
+{}
+ ================ 2022-12-12 22:12:27 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:12:27 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","pwd":"$2y$11$eoiUtF86RdTkIa0z3iRETuTtaohBiDc01OVWmetZrmjf1WVlxDeIS","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:13:19 ============= 
+{}
+ ================ 2022-12-12 22:13:20 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:13:20 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"$2y$11$eoiUtF86RdTkIa0z3iRETuTtaohBiDc01OVWmetZrmjf1WVlxDeIS","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:14:22 ============= 
+{}
+ ================ 2022-12-12 22:14:23 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:14:23 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"$2y$11$eoiUtF86RdTkIa0z3iRETuTtaohBiDc01OVWmetZrmjf1WVlxDeIS","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:14:57 ============= 
+{}
+ ================ 2022-12-12 22:14:58 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:14:58 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"$2y$11$eoiUtF86RdTkIa0z3iRETuTtaohBiDc01OVWmetZrmjf1WVlxDeIS","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:15:06 ============= 
+{}
+ ================ 2022-12-12 22:15:06 ============= 
+{}
+ ================ 2022-12-12 22:15:06 ============= 
+{}
+ ================ 2022-12-12 22:15:08 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:15:08 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"$2y$11$eoiUtF86RdTkIa0z3iRETuTtaohBiDc01OVWmetZrmjf1WVlxDeIS","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:15:24 ============= 
+{}
+ ================ 2022-12-12 22:15:26 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:15:26 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"$2y$11$eoiUtF86RdTkIa0z3iRETuTtaohBiDc01OVWmetZrmjf1WVlxDeIS","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:15:31 ============= 
+{}
+ ================ 2022-12-12 22:15:31 ============= 
+{}
+ ================ 2022-12-12 22:15:31 ============= 
+{}
+ ================ 2022-12-12 22:15:35 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:15:35 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"$2y$11$eoiUtF86RdTkIa0z3iRETuTtaohBiDc01OVWmetZrmjf1WVlxDeIS","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:15:54 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 22:15:54 ============= 
+{}
+ ================ 2022-12-12 22:15:54 ============= 
+{}
+ ================ 2022-12-12 22:15:56 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 22:15:56 ============= 
+{}
+ ================ 2022-12-12 22:15:56 ============= 
+{}
+ ================ 2022-12-12 22:15:58 ============= 
+{}
+ ================ 2022-12-12 22:16:04 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:16:04 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"$2y$11$eoiUtF86RdTkIa0z3iRETuTtaohBiDc01OVWmetZrmjf1WVlxDeIS","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:16:48 ============= 
+{}
+ ================ 2022-12-12 22:16:50 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:16:50 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:18:22 ============= 
+{}
+ ================ 2022-12-12 22:18:27 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:18:27 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:18:45 ============= 
+{}
+ ================ 2022-12-12 22:18:46 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:18:46 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:19:08 ============= 
+{}
+ ================ 2022-12-12 22:19:09 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:19:09 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:19:45 ============= 
+{}
+ ================ 2022-12-12 22:19:47 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:19:47 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:20:02 ============= 
+{}
+ ================ 2022-12-12 22:20:03 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:20:03 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:20:14 ============= 
+{}
+ ================ 2022-12-12 22:20:14 ============= 
+{}
+ ================ 2022-12-12 22:20:14 ============= 
+{}
+ ================ 2022-12-12 22:21:53 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:21:53 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:22:03 ============= 
+{}
+ ================ 2022-12-12 22:22:03 ============= 
+{}
+ ================ 2022-12-12 22:22:03 ============= 
+{}
+ ================ 2022-12-12 22:22:12 ============= 
+{}
+ ================ 2022-12-12 22:22:16 ============= 
+{}
+ ================ 2022-12-12 22:22:34 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:22:34 ============= 
+{"idUsuario":"8","nombre":"S1c3bjR2azVoaXptTHZGNnp5NnJQQT09OjqvLGyvze\/+CqAkKxA0ilFR","apellidop":"UTVsZ0c3NU5wNFNic2c4ZlFHTjBUUT09OjrRLjmRpKJgpXs6HNV+h614","apellidom":"QlRKdlZENDBUa0wvQ2FQaDg4UU9Vdz09OjrBmB6xGz2AKhy1VMj+jGv3","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:23:02 ============= 
+{}
+ ================ 2022-12-12 22:23:02 ============= 
+{}
+ ================ 2022-12-12 22:23:02 ============= 
+{}
+ ================ 2022-12-12 22:24:24 ============= 
+{}
+ ================ 2022-12-12 22:24:46 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:24:46 ============= 
+{"idUsuario":"14","nombre":"YTFaRXBkZEtHaE5USjlwcmFOZWprZz09Ojqv43cQcWj8owbH1tpiW3Zk","apellidop":"a2FCOUJZL3lSallVeTlnTDFOcEdGZz09Ojr3lI5T3Rhofn+2qWAxnq+u","apellidom":"Z05qTFJVRDEyRDRZWlFFVVhrNnMxUT09OjpW58+0zU3MZ7sn7lBmGXm8","email":"zuniga@gmail.com","fechaCreacion":"2022-11-10 00:00:00","fechaBaja":"2022-11-10 00:00:00","telefono":"5536980291","tipo":"","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:24:52 ============= 
+{}
+ ================ 2022-12-12 22:24:52 ============= 
+{}
+ ================ 2022-12-12 22:24:52 ============= 
+{}
+ ================ 2022-12-12 22:25:53 ============= 
+{}
+ ================ 2022-12-12 22:25:56 ============= 
+{}
+ ================ 2022-12-12 22:26:35 ============= 
+{}
+ ================ 2022-12-12 22:27:08 ============= 
+{}
+ ================ 2022-12-12 22:27:18 ============= 
+{}
+ ================ 2022-12-12 22:27:22 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:27:22 ============= 
+{"idUsuario":"1","nombre":"N3d3THN4TmVpZVhPclBnYmI0emFQZz09OjrPKiSvfQEyKi0nUDsnc0E1","apellidop":"N3d3THN4TmVpZVhPclBnYmI0emFQZz09OjrPKiSvfQEyKi0nUDsnc0E1","apellidom":"soto","email":"zu\u00f1iga","fechaCreacion":"2022-11-10 10:34:59","fechaBaja":"2022-11-10 10:53:10","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":null,"activo":"1"}
+ ================ 2022-12-12 22:27:44 ============= 
+{}
+ ================ 2022-12-12 22:27:45 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 22:27:45 ============= 
+{"idUsuario":"1","nombre":"N3d3THN4TmVpZVhPclBnYmI0emFQZz09OjrPKiSvfQEyKi0nUDsnc0E1","apellidop":"N3d3THN4TmVpZVhPclBnYmI0emFQZz09OjrPKiSvfQEyKi0nUDsnc0E1","apellidom":"soto","email":"zu\u00f1iga","fechaCreacion":"2022-11-10 10:34:59","fechaBaja":"2022-11-10 10:53:10","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 22:28:06 ============= 
+{}
+ ================ 2022-12-12 22:28:06 ============= 
+{}
+ ================ 2022-12-12 22:28:07 ============= 
+{}
+ ================ 2022-12-12 22:42:26 ============= 
+{}
+ ================ 2022-12-12 22:44:23 ============= 
+{}
+ ================ 2022-12-12 22:44:27 ============= 
+{}
+ ================ 2022-12-12 22:44:30 ============= 
+{}
+ ================ 2022-12-12 22:45:11 ============= 
+ ================ 2022-12-12 22:45:11 ============= 
+{}
+{}
+ ================ 2022-12-12 22:45:11 ============= 
+{}
+ ================ 2022-12-12 22:46:38 ============= 
+{}
+ ================ 2022-12-12 22:46:48 ============= 
+{}
+ ================ 2022-12-12 22:47:16 ============= 
+{}
+ ================ 2022-12-12 22:47:16 ============= 
+{}
+ ================ 2022-12-12 22:47:16 ============= 
+{}
+ ================ 2022-12-12 22:48:12 ============= 
+{}
+ ================ 2022-12-12 22:48:19 ============= 
+{}
+ ================ 2022-12-12 22:50:51 ============= 
+{}
+ ================ 2022-12-12 22:51:20 ============= 
+{}
+ ================ 2022-12-12 22:51:20 ============= 
+{}
+ ================ 2022-12-12 22:51:20 ============= 
+{}
+ ================ 2022-12-12 23:20:53 ============= 
+{}
+ ================ 2022-12-12 23:21:02 ============= 
+{}
+ ================ 2022-12-12 23:21:27 ============= 
+{}
+ ================ 2022-12-12 23:21:27 ============= 
+{}
+ ================ 2022-12-12 23:21:27 ============= 
+{}
+ ================ 2022-12-12 23:21:38 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 23:21:38 ============= 
+{"idUsuario":"21","nombre":"eXdkaGxrb2RidXVtTW1OMTl0TzMxQT09OjpxPbVqLPd5ZDWL061MlChq","apellidop":"TzNid0lMdkpaaXoxSWFrNkNSNXdHUT09OjojpECOy2scJk8Q5Gyc\/g6g","apellidom":"cVk5TzU0b2ZwazkwRlZ2Nk0zV21Mdz09OjoCK8c\/bfj3Q4DkNnQx83xy","email":"nayellisotoz@gmail.com","fechaCreacion":"2022-12-12 00:00:00","fechaBaja":"0000-00-00 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 23:21:54 ============= 
+{}
+ ================ 2022-12-12 23:21:54 ============= 
+{}
+ ================ 2022-12-12 23:21:54 ============= 
+{}
+ ================ 2022-12-12 23:22:31 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 23:22:31 ============= 
+{"idUsuario":"22","nombre":"VktrV1ZvQlVSMHl6T01DL0Y0TGtNUT09Ojq6bR\/6TmHFrCNQxeKukofX","apellidop":"bGFYVnZiSjVhYVJmbUJ5VkNuMVE5QT09OjruVYSSlvUQZLniqxKXMLVu","apellidom":"L3l0OU9jdTEzT0t5aUd3SUNMZ05Ldz09Ojo0E8iKPoxxJkz31i5lg\/6i","email":"nayellisotoz@gmail.com","fechaCreacion":"2022-12-12 00:00:00","fechaBaja":"0000-00-00 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 23:27:31 ============= 
+{}
+ ================ 2022-12-12 23:27:36 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 23:27:36 ============= 
+{"idUsuario":"22","nombre":"VktrV1ZvQlVSMHl6T01DL0Y0TGtNUT09Ojq6bR\/6TmHFrCNQxeKukofX","apellidop":"bGFYVnZiSjVhYVJmbUJ5VkNuMVE5QT09OjruVYSSlvUQZLniqxKXMLVu","apellidom":"L3l0OU9jdTEzT0t5aUd3SUNMZ05Ldz09Ojo0E8iKPoxxJkz31i5lg\/6i","email":"nayellisotoz@gmail.com","fechaCreacion":"2022-12-12 00:00:00","fechaBaja":"0000-00-00 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 23:27:43 ============= 
+{}
+ ================ 2022-12-12 23:27:43 ============= 
+{}
+ ================ 2022-12-12 23:27:43 ============= 
+{}
+ ================ 2022-12-12 23:29:05 ============= 
+{}
+ ================ 2022-12-12 23:29:07 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 23:29:07 ============= 
+{"idUsuario":"22","nombre":"VktrV1ZvQlVSMHl6T01DL0Y0TGtNUT09Ojq6bR\/6TmHFrCNQxeKukofX","apellidop":"bGFYVnZiSjVhYVJmbUJ5VkNuMVE5QT09OjruVYSSlvUQZLniqxKXMLVu","apellidom":"L3l0OU9jdTEzT0t5aUd3SUNMZ05Ldz09Ojo0E8iKPoxxJkz31i5lg\/6i","email":"nayellisotoz@gmail.com","fechaCreacion":"2022-12-12 00:00:00","fechaBaja":"0000-00-00 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 23:29:12 ============= 
+{}
+ ================ 2022-12-12 23:29:12 ============= 
+{}
+ ================ 2022-12-12 23:29:12 ============= 
+{}
+ ================ 2022-12-12 23:29:38 ============= 
+{}
+ ================ 2022-12-12 23:29:39 ============= 
+Ajax Empleado Caso Mostrar
+ ================ 2022-12-12 23:29:39 ============= 
+{"idUsuario":"22","nombre":"VktrV1ZvQlVSMHl6T01DL0Y0TGtNUT09Ojq6bR\/6TmHFrCNQxeKukofX","apellidop":"bGFYVnZiSjVhYVJmbUJ5VkNuMVE5QT09OjruVYSSlvUQZLniqxKXMLVu","apellidom":"L3l0OU9jdTEzT0t5aUd3SUNMZ05Ldz09Ojo0E8iKPoxxJkz31i5lg\/6i","email":"nayellisotoz@gmail.com","fechaCreacion":"2022-12-12 00:00:00","fechaBaja":"0000-00-00 00:00:00","telefono":"5536980291","tipo":"Empleado","pwd":"12345","foto":"default.png","activo":"1"}
+ ================ 2022-12-12 23:29:45 ============= 
+{}
+ ================ 2022-12-12 23:29:45 ============= 
+{}
+ ================ 2022-12-12 23:29:45 ============= 
+{}
+ ================ 2022-12-12 23:30:07 ============= 
+{}
+ ================ 2022-12-12 23:30:30 ============= 
+{}
+ ================ 2022-12-12 23:30:47 ============= 
+{}
+ ================ 2022-12-12 23:30:49 ============= 
+{}
+ ================ 2022-12-12 23:31:04 ============= 
+{}
+ ================ 2022-12-12 23:31:57 ============= 
+Ajax Venta Caso productos
+ ================ 2022-12-12 23:31:57 ============= 
+{}
+ ================ 2022-12-12 23:31:57 ============= 
+{}
